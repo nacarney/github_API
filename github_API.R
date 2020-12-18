@@ -15,9 +15,9 @@ myapp <- oauth_app(appname = "nacarney_github_API",
 # Getting OAuth credentials
 github_token <- oauth2.0_token(oauth_endpoints("github"), myapp)
 
-# Use API to get user 'phadej's followers
+# Use API to get my repos
 gtoken <- config(token = github_token)
-req <- GET("https://api.github.com/users/phadej/followers", gtoken)
+req <- GET("https://api.github.com/users/nacarney/repos", gtoken)
 
 # Take action on http error
 stop_for_status(req)
@@ -30,9 +30,8 @@ req
 
 # Convert to a data.frame (json)
 gitDF = jsonlite::fromJSON(jsonlite::toJSON(json1))
-gitDF
 
-# Display follower logins as an example
-gitDF$login
+# Display names of my repos as an example
+gitDF$name
 
 
