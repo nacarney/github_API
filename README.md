@@ -11,4 +11,3 @@
  
  My final visualization was a scatter plot of users with over 1000 followers against the number of people they are following. 
  
- I used R to extract all the necessary information from Github and wrote the necessary code to create the plot.ly visualizations. 
