@@ -11,3 +11,12 @@
  
  My final visualization was a scatter plot of users with over 1000 followers against the number of people they are following. 
  
+ Link to plot.ly homepage : https://plot.ly/~nathanc283
+ 
+ Visualization 1 : https://chart-studio.plotly.com/~nathanc283/7
+ 
+ Visualization 2 : https://chart-studio.plotly.com/~nathanc283/9
+ 
+ Visualization 3 : https://chart-studio.plotly.com/~nathanc283/15
+ 
+ 
